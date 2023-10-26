@@ -55,7 +55,7 @@ function CartDrawer({ openCart, onCartClose, cartItems, setCartItems }) {
         // title="Basic Drawer"
         placement="right"
         closable={false}
-        // onClose={onClose}
+        onClose={onCartClose}
         open={openCart}
         key="right"
         width="40%"
