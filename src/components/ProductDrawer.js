@@ -20,7 +20,7 @@ function ProductDrawer({
         onClose={onClose}
         open={open}
         key="right"
-        width="40%"
+        width={window.innerWidth > 746 ? '40%' : window.innerWidth - 100}
       >
         <div className="item">
           <CloseButton onClose={onClose} />
