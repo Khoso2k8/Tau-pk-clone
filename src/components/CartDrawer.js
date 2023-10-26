@@ -49,6 +49,8 @@ function CartDrawer({ openCart, onCartClose, cartItems, setCartItems }) {
     );
   }
 
+  console.log(window.innerWidth);
+
   return (
     <>
       <Drawer
@@ -58,7 +60,7 @@ function CartDrawer({ openCart, onCartClose, cartItems, setCartItems }) {
         onClose={onCartClose}
         open={openCart}
         key="right"
-        width={window.innerWidth > 746 ? '40%' : window.innerWidth - 100}
+        width={window.innerWidth > 746 ? '40%' : window.innerWidth}
       >
         <CartHeading itemsInCart={itemsInCart} onCartClose={onCartClose} />
         <CartContentHeading />
