@@ -71,6 +71,7 @@ function CartDrawer({ openCart, onCartClose, cartItems, setCartItems }) {
           onRemoveCartItem={handleRemoveItem}
         />
         <CartTotals subTotal={subTotal} deliveryFees={deliveryFees} />
+        <CheckOutButton />
       </Drawer>
     </>
   );
@@ -155,10 +156,10 @@ function ItemDetails({ item, selectedDrinks, onRemoveCartItem }) {
               <span>{drink}</span>
             </p>
           ))}
-        <span>
-          <DeleteOutlined onClick={() => onRemoveCartItem(item.id)} />
+        <span onClick={() => onRemoveCartItem(item.id)}>
+          <DeleteOutlined />
         </span>
-        <span>Remove</span>
+        <span onClick={() => onRemoveCartItem(item.id)}>Remove</span>
       </div>
     </div>
   );
@@ -228,6 +229,14 @@ function CartTotals({ subTotal, deliveryFees }) {
         <p>Total</p>
         <p>{(subTotal + deliveryFees).toLocaleString('en-us')}</p>
       </div>
+    </div>
+  );
+}
+
+function CheckOutButton() {
+  return (
+    <div className="btn-check-out-box">
+      <button className="btn-check-out">Check Out</button>
     </div>
   );
 }
