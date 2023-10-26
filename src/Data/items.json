@@ -1,0 +1,671 @@
+[
+  {
+    "category": "Appetizing Deals",
+    "items": [
+      {
+        "id": 1,
+        "title": "Deal 1",
+        "dishes": ["Chiken Tikka and Paratha, Chicken Roll, Drink"],
+        "numOfDrinks": 1,
+        "drinks": ["Pepsi", "Sprite"],
+        "price": "435",
+        "image": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641566733074/1641566733075.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=fe601a80add1a4d029f4918bebb34243",
+        "imageCover": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641566733074/1641566733075.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=46c9eaf258703730911eaa33a02f801d"
+      }
+    ]
+  },
+  {
+    "category": "Appetizing Deals",
+    "items": [
+      {
+        "id": 2,
+        "title": "Deal 3",
+        "dishes": [
+          "1 Tau's Special Kabab and 4 Garlic Naan, 1 Chicken Karahi (Half), 1 Litre Drink"
+        ],
+        "numOfDrinks": 1,
+        "drinks": ["Pepsi", "Sprite"],
+        "price": "1,331",
+        "image": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641570033661/1641570033663.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=0a71cb11a086a8c06afcb44c7ef37cc9",
+        "imageCover": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641570033661/1641570033663.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=762d8b96da610a9ac88520b7611a5def"
+      }
+    ]
+  },
+  {
+    "category": "Appetizing Deals",
+    "items": [
+      {
+        "id": 3,
+        "title": "Deal 2",
+        "dishes": ["4 Chicken Rolls, 2 Cold Drinks"],
+        "numOfDrinks": 2,
+        "drinks": ["Pepsi", "Sprite"],
+        "price": "600",
+        "image": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641570172616/1641570172618.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=7818756b8d9be289707595735025e31f",
+        "imageCover": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641570172616/1641570172618.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=08ef19c3b59a5571a1a548bddb1c3079"
+      }
+    ]
+  },
+  {
+    "category": "Appetizing Deals",
+    "items": [
+      {
+        "id": 4,
+        "title": "Deal 4",
+        "dishes": [
+          "Chicken Biryani Handi (Half), 2 Chicken Chatni Roll, 2 Drinks"
+        ],
+        "numOfDrinks": 2,
+        "drinks": ["Pepsi", "Sprite"],
+        "price": "885",
+        "image": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641570292094/1641570292094.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=9fd10b35024d8e73a35c5a7a84d76dd6",
+        "imageCover": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641570292094/1641570292094.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=30099abd389c9f4f34d6ad1e6381c88d"
+      }
+    ]
+  },
+  {
+    "category": "Appetizing Deals",
+    "items": [
+      {
+        "id": 5,
+        "title": "Deal 5",
+        "dishes": [
+          "Chicken Makhni (Half), 3 Garlic and 3 Plain Naan, Chicken Bihari Kabab, Reshmi Kabab (4 Pcs), 1 Litre Drink"
+        ],
+        "numOfDrinks": 1,
+        "drinks": ["Pepsi", "Sprite"],
+        "price": "1,882",
+        "image": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641570317507/1641570317507.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=a360848a1f9f0c4c9b758ad262e64721",
+        "imageCover": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641570317507/1641570317507.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=8b19958aee3542689ce3f4b9cdd239cd"
+      }
+    ]
+  },
+  {
+    "category": "Appetizing Deals",
+    "items": [
+      {
+        "id": 6,
+        "title": "Deal 6",
+        "dishes": "Chicken Rice Platter, 2 Plain Naan, 2 Drinks",
+        "numOfDrinks": 2,
+        "drinks": ["Pepsi", "Sprite"],
+        "price": "698",
+        "image": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641570445358/1641570445360.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=fc769c1d417d025986310a1a558ef7ee",
+        "imageCover": "https://chikoo.imgix.net/merchant-prod-private/60d98635-3d1d-4884-8d29-d37b5230f071/product/1641570445358/1641570445360.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=df81c47ee9b810f8166415468df4d275"
+      }
+    ]
+  },
+  {
+    "category": "Deals",
+    "items": [
+      {
+        "id": 7,
+        "title": "Deal 6",
+        "dishes": "Chicken karahi half ,palak paneer ,beef bihari 4pcs plain naan 3 ,plain paratha 3",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "1,599"
+      }
+    ]
+  },
+  {
+    "category": "Deals",
+    "items": [
+      {
+        "id": 8,
+        "title": "Deal 7",
+        "dishes": "Mutton karahi half ,bhindi masala ,plain naan 3 chicken boti 4 pcs ,Reshmi kebab 2 pcs ,paratha 3",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "1,999"
+      }
+    ]
+  },
+  {
+    "category": "Deals",
+    "items": [
+      {
+        "id": 9,
+        "title": "Deal 2",
+        "dishes": "Any Rolls 4, Soft drinks 2",
+        "numOfDrinks": 2,
+        "drinks": ["Pepsi", "Sprite"],
+        "price": "499"
+      }
+    ]
+  },
+  {
+    "category": "Deals",
+    "items": [
+      {
+        "id": 10,
+        "title": "Deal 1",
+        "dishes": ["Any Roll, Chicken tikka, plain paratha"],
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "399"
+      }
+    ]
+  },
+  {
+    "category": "Deals",
+    "items": [
+      {
+        "id": 11,
+        "title": "Deal 3",
+        "dishes": "Chicken boti 4 pcs, bhindi masala, plain naan 1, plain paratha 1",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "330"
+      }
+    ]
+  },
+  {
+    "category": "Deals",
+    "items": [
+      {
+        "id": 12,
+        "title": "Deal 4",
+        "dishes": "Daal makhni, Reshmi kebab 2 pcs, chicken tikka, plain naan 2, plain paratha 1",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "660"
+      }
+    ]
+  },
+  {
+    "category": "Deals",
+    "items": [
+      {
+        "id": 13,
+        "title": "Deal 5",
+        "dishes": "Palak paneer, chicken tikka, chicken biryani, plain naan 2, plain paratha 1",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "1150"
+      }
+    ]
+  },
+  {
+    "category": "Barbeque",
+    "items": [
+      {
+        "id": 14,
+        "title": "Tau’s Special Platter",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "2,360"
+      }
+    ]
+  },
+  {
+    "category": "Barbeque",
+    "items": [
+      {
+        "id": 15,
+        "title": "Chicken Tikka",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "320",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634888678983/1634888678983.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=eb172b1f703bab96964cd49639d632e8",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634888678983/1634888678983.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=3dcdb71995b858741a3d00ec8ec5a60e"
+      }
+    ]
+  },
+  {
+    "category": "Barbeque",
+    "items": [
+      {
+        "id": 16,
+        "title": "Malai Tikka",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "420"
+      }
+    ]
+  },
+  {
+    "category": "Barbeque",
+    "items": [
+      {
+        "id": 17,
+        "title": "Mutton Namkin Chops",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "1,150"
+      }
+    ]
+  },
+  {
+    "category": "Barbeque",
+    "items": [
+      {
+        "id": 18,
+        "title": "Mutton Masala Chops",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "1,150"
+      }
+    ]
+  },
+  {
+    "category": "Barbeque",
+    "items": [
+      {
+        "id": 19,
+        "title": "Chicken Bihari Kabab",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "560"
+      }
+    ]
+  },
+  {
+    "category": "Barbeque",
+    "items": [
+      {
+        "id": 20,
+        "title": "Malai Boti",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "640"
+      }
+    ]
+  },
+  {
+    "category": "Barbeque",
+    "items": [
+      {
+        "id": 21,
+        "title": "Chicken Boti",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "560"
+      }
+    ]
+  },
+  {
+    "category": "Barbeque",
+    "items": [
+      {
+        "id": 22,
+        "title": "Beef Bihari Kabab",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "630",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634888711302/1634888711303.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=a226ae12c16152e8ae8ee7300b62acf9",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634888711302/1634888711303.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=a1844c299cd49de2147daadcef568c4c"
+      }
+    ]
+  },
+  {
+    "category": "Special",
+    "items": [
+      {
+        "id": 23,
+        "title": "BBQ Prawn Biryani",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "1,200"
+      }
+    ]
+  },
+  {
+    "category": "Special",
+    "items": [
+      {
+        "id": 24,
+        "title": "Plain Zeera Rice",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "220",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892595234/1634892595235.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=f268526e7d9d1e072c33666a5132b603",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892595234/1634892595235.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=cd7122616f311e016d56dd415d229d29"
+      }
+    ]
+  },
+  {
+    "category": "Special",
+    "items": [
+      {
+        "id": 25,
+        "title": "Palak Paneer",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "650",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634888957047/1634888957048.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=ce820492ca645bc04177e4f92af73f3a",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634888957047/1634888957048.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=ffb98d1118ec236293eff663dec24b84"
+      }
+    ]
+  },
+  {
+    "category": "Special",
+    "items": [
+      {
+        "id": 26,
+        "title": "Daal Makhni",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "430",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892549383/1634892549384.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=f91fb86238528560a1bccf43ea2157fc",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892549383/1634892549384.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=a722eaa7d8e833d2aa72ea8ea60725cf"
+      }
+    ]
+  },
+  {
+    "category": "Special",
+    "items": [
+      {
+        "id": 27,
+        "title": "Kabab Handi Chicken",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "1250",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892486185/1634892486186.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=264d050c2681dee3277b49271ddcda93",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892486185/1634892486186.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=4409c81c1fd63cfb9c805d4d05239cfd"
+      }
+    ]
+  },
+  {
+    "category": "Special",
+    "items": [
+      {
+        "id": 28,
+        "title": "Brain Masala",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "650",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892431873/1634892431875.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=424d2e743945254ce5b8ce6b46e516b8",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892431873/1634892431875.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=9d3b60bec0f906c9f737c3fd93348738"
+      }
+    ]
+  },
+  {
+    "category": "Special",
+    "items": [
+      {
+        "id": 29,
+        "title": "Bhindi Masala",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "550",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892519342/1634892519342.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=cd260eb67e86a9e9bfb7f0fe7e57de00",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892519342/1634892519342.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=81a73b772968886073ff79b5b718b2f4"
+      }
+    ]
+  },
+  {
+    "category": "Special",
+    "items": [
+      {
+        "id": 30,
+        "title": "Chicken Makhni",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "1,020",
+        "variation": [
+          {
+            "half": "1,020",
+            "full": "1,620"
+          }
+        ],
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634888909724/1634888909725.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=c6d8af040485983826209f142720ddb9",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634888909724/1634888909725.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=7e76a41f8e4026b8da002c0240b0591d"
+      }
+    ]
+  },
+  {
+    "category": "Special",
+    "items": [
+      {
+        "id": 31,
+        "title": "Tau’s Biryani Handi (Chicken)",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "680",
+        "variation": [
+          {
+            "half": "680",
+            "full": "1,080"
+          }
+        ],
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892317801/1634892317802.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=347faa1c3955b5a6b2dcc7b3159a0cfd",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892317801/1634892317802.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=f424f07b8f4d377558874bfcc13d4a5d"
+      }
+    ]
+  },
+  {
+    "category": "Special",
+    "items": [
+      {
+        "id": 32,
+        "title": "Tau’s Biryani Handi (Mutton)",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "880",
+        "variation": [
+          {
+            "half": "880",
+            "full": "1,650"
+          }
+        ],
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892573214/1634892573214.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=fa30262d1941d7934a2f5174d68fdbd2",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892573214/1634892573214.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=5fbf7fc8e626f3f867c240178d1588b9"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 33,
+        "title": "Chicken Kabab Roll",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "150",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892840255/1634892840255.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=6094d111009a33e8e4148ea5fc2d0b5a",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892840255/1634892840255.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=903cc10afb8f7afaf5c77672c1be0e7f"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 34,
+        "title": "Malai Boti Roll",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "180",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892861369/1634892861370.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=ef7238a3fb56962d581c93e624d74daa",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892861369/1634892861370.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=43a7ab1bfcb26d4bb809ba566da5d96a"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 35,
+        "title": "Diet Naan",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "50",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892755048/1634892755049.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=71983ee6e2eaec27611472f4e1e5d0c1",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892755048/1634892755049.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=f1f506702aa8ef212315ef9d806fb286"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 36,
+        "title": "Beef Kabab Roll",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "150",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892689158/1634892689159.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=66a6e375be631aaeddde422cbb55367d",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892689158/1634892689159.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=cb704c97e884060a35b7e93704352f3a"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 37,
+        "title": "Roghni Naan",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "50",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892905618/1634892905618.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=02ce706e672edbbf2ff3e7b99139fa6d",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892905618/1634892905618.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=a3a246083f5dcb8a2708b83533ff854c"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 38,
+        "title": "Chicken Chatni Roll",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "150",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892646300/1634892646300.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=a24a49b08c3303d958e4bd68246ff210",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892646300/1634892646300.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=6c5310410c4025f8fb415a5237f74467"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 39,
+        "title": "Plain Paratha",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "60",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892884862/1634892884863.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=910aee1a866e49412b2f97af9c4919a6",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892884862/1634892884863.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=8fa1a6152ae5d204e14e973db75fc147"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 40,
+        "title": "Lacha Paratha",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "70",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892712135/1634892712136.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=d8d86ee9761e390939c3906e8ac6ff8f",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892712135/1634892712136.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=77bc448e6d0e8c73e7c1b360fce2690d"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 41,
+        "title": "Beef Chatni Roll",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "150",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892797187/1634892797187.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=a0d508d41ebe850da0fa1ca78849b469",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892797187/1634892797187.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=1f20e54ad853e6c25fe3a5cc067804ae"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 42,
+        "title": "Garlic Naan",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "50",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892797187/1634892797187.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=a0d508d41ebe850da0fa1ca78849b469",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892733433/1634892733433.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=ad6aacb8b21324b0b879d43f80565da1"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 43,
+        "title": "Chicken Garlic Mayo Roll",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "190",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892667839/1634892667839.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=3e3c9881576a1722be3c0562c646d564",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892667839/1634892667839.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=083195df303d8c601b6ffbf8485d58e0"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 44,
+        "title": "Chapati",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "40",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892775490/1634892775491.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=e682face0a35f42467763f87801c1822",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892775490/1634892775491.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=b9c3670b59507ae889898d9a0d0cc1a2"
+      }
+    ]
+  },
+  {
+    "category": "Roll & Breads",
+    "items": [
+      {
+        "id": 45,
+        "title": "Plain Naan",
+        "dishes": "",
+        "numOfDrinks": 0,
+        "drinks": [],
+        "price": "30",
+        "image": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892932762/1634892932763.jpg?ixlib=js-3.8.0&dpi=96&w=1000&s=58cb74ce85ffddd37f3c0f0b5939e3ce",
+        "imageCover": "https://chikoo.imgix.net/merchant-production/60d98635-3d1d-4884-8d29-d37b5230f071/product/1634892932762/1634892932763.jpg?ixlib=js-3.8.0&w=115&dpi=96&s=b1036419f31cb80c6fdc803cb40d5d27"
+      }
+    ]
+  }
+]
