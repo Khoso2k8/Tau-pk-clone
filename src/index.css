@@ -68,6 +68,10 @@ body::-webkit-scrollbar-thumb {
   position: relative;
 }
 
+.search-box span {
+  position: absolute;
+}
+
 .search-box input {
   width: 88%;
   height: 4.5rem;
@@ -86,11 +90,17 @@ search-box i {
 
 .search-box span {
   background-color: #f79a3c;
-  width: 6rem;
-  height: 6rem;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50%;
   color: #fff;
   font-size: 1.6rem;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .search-box .icon-arrow {
@@ -123,6 +133,10 @@ search-box i {
   border: 1px solid #868e96;
   padding: 0.5rem 1.5rem 0.5rem 1rem;
   border-radius: 10rem;
+}
+
+.explore-box-mob {
+  display: none;
 }
 
 .explore-box span {
@@ -166,6 +180,7 @@ search-box i {
 
 .business-time .icon {
   font-size: 2.4rem;
+  position: absolute;
 }
 
 .business-time span {
@@ -180,14 +195,10 @@ search-box i {
   color: #fff;
 }
 
-.business-time .icon {
-  position: absolute;
-}
-
 .business-time .details {
   display: flex;
   flex-direction: column;
-  gap: o.5rem;
+  gap: 0.5rem;
 }
 
 .details h3 {
@@ -759,3 +770,227 @@ search-box i {
   z-index: 100;
   overflow-y: auto;
 }
+
+@media (max-width: 77em) {
+  html {
+    font-size: 56.5%;
+  }
+  .search-box input {
+    width: 70%;
+  }
+
+  .search-box i {
+    left: 300px;
+  }
+
+  .info {
+    width: 70%;
+  }
+
+  .business-time {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .business-time .icon {
+    font-size: 2rem;
+  }
+
+  .business-time span {
+    height: 4rem;
+    width: 4rem;
+  }
+
+  .business-time .details {
+    gap: o.4rem;
+  }
+
+  .details h3 {
+    font-size: 1.5rem;
+  }
+
+  .details p {
+    font-size: 1.2rem;
+  }
+  .product-details {
+    flex: 3;
+  }
+
+  .product-details p {
+    width: 70%;
+  }
+}
+
+@media (max-width: 52em) {
+  html {
+    font-size: 50%;
+  }
+  .info {
+    width: 80%;
+  }
+
+  .category .products {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 46.6em) {
+  html {
+    font-size: 47%;
+  }
+  body {
+    padding-bottom: 4rem;
+  }
+  .cart-box {
+    position: fixed;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+  }
+  .btn-cart {
+    min-width: 100vw;
+    border-radius: 0;
+  }
+  .explore-box {
+    display: none;
+  }
+
+  .explore-box-mob {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    border: 1px solid #868e96;
+    text-align: center;
+  }
+  .sub-nav ul {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 32.5em) {
+  .category .products {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .info {
+    width: 100vw;
+  }
+
+  .copyright {
+    font-size: 1.2rem;
+  }
+
+  .powered-by {
+    font-size: 1.2rem;
+  }
+
+  .powered-by img {
+    height: 1.2rem;
+  }
+
+  .accepted-payments {
+    font-size: 1.2rem;
+  }
+
+  .accepted-payments img {
+    height: 1.2rem;
+  }
+  .sticky-sub-menu .sub-menu {
+    margin-top: 9rem;
+  }
+}
+
+@media (max-width: 28em) {
+  .sub-menu {
+    margin-top: 0.1rem;
+    padding: 0;
+  }
+
+  .info {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    height: 40%;
+    justify-items: center;
+    align-items: center;
+  }
+  .business-time {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .business-time .icon {
+    font-size: 1.6rem;
+  }
+
+  .business-time span {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .business-time .details {
+    gap: o.4rem;
+  }
+
+  .details h3 {
+    font-size: 1.1rem;
+  }
+
+  .details p {
+    font-size: 0.8rem;
+  }
+
+  .sub-nav ul {
+    font-size: 0.8rem;
+  }
+  .search-box input {
+    font-size: 1rem;
+  }
+}
+
+/* .footer {
+  height: 6rem;
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.copyright {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #495057;
+  text-transform: capitalize;
+}
+
+.powered-by {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #868e96;
+}
+
+.powered-by img {
+  height: 2rem;
+}
+
+.accepted-payments {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 2rem;
+  font-weight: 500;
+  color: #868e96;
+  text-transform: capitalize;
+}
+
+.accepted-payments img {
+  height: 2.4rem;
+} */
