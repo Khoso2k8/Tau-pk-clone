@@ -10,30 +10,43 @@ function CartContent({
 }) {
   return (
     <div className="cart-content-container">
-      <div className="cart-content">
-        {cartItems.map(item => (
-          <Fragment key={item.item.id}>
-            <ItemDetails
-              item={item.item}
-              selectedDrinks={item.selectedDrinks}
-              key={item.item.id}
-              onRemoveCartItem={onRemoveCartItem}
-            />
-            <ItemQuantity
-              quantity={item.quantity}
-              onIncreaseQuantity={onIncreaseQuantity}
-              onDecreaseQuantity={onDecreaseQuantity}
-              item={item}
-            />
-            <div className="total">
-              {(
-                parseFloat(item.item.price.replace(/,/g, '')) *
-                parseInt(item.quantity)
-              ).toLocaleString('en-us')}
-            </div>
-          </Fragment>
-        ))}
-      </div>
+      {cartItems.length ? (
+        <div className="cart-content">
+          {cartItems.map(item => (
+            <Fragment key={item.item.id}>
+              <ItemDetails
+                item={item.item}
+                selectedDrinks={item.selectedDrinks}
+                key={item.item.id}
+                onRemoveCartItem={onRemoveCartItem}
+              />
+              <ItemQuantity
+                quantity={item.quantity}
+                onIncreaseQuantity={onIncreaseQuantity}
+                onDecreaseQuantity={onDecreaseQuantity}
+                item={item}
+              />
+              <div className="total">
+                {(
+                  parseFloat(item.item.price.replace(/,/g, '')) *
+                  parseInt(item.quantity)
+                ).toLocaleString('en-us')}
+              </div>
+            </Fragment>
+          ))}
+        </div>
+      ) : (
+        <p
+          style={{
+            fontSize: '1.6rem',
+            textAlign: 'center',
+            marginTop: '10rem',
+            fontWeight: '600',
+          }}
+        >
+          Cart is empty. To order add items in cart.
+        </p>
+      )}
     </div>
   );
 }
