@@ -1,6 +1,8 @@
 import { Drawer } from 'antd';
-import { DeleteOutlined, MinusOutlined } from '@ant-design/icons';
-import { Fragment } from 'react';
+import CartHeading from './CartHeading';
+import CartContentHeading from './CartContentHeading';
+import CartContent from './CartContent';
+import CartTotals from './CartTotals';
 
 function CartDrawer({ openCart, onCartClose, cartItems, setCartItems }) {
   const itemsInCart = cartItems.reduce(
@@ -49,8 +51,6 @@ function CartDrawer({ openCart, onCartClose, cartItems, setCartItems }) {
     );
   }
 
-  console.log(window.innerWidth);
-
   return (
     <>
       <Drawer
@@ -74,162 +74,6 @@ function CartDrawer({ openCart, onCartClose, cartItems, setCartItems }) {
         <CheckOutButton />
       </Drawer>
     </>
-  );
-}
-
-function CartHeading({ itemsInCart, onCartClose }) {
-  return (
-    <div className="cart-heading">
-      <div className="user-cart">
-        <span>
-          <i className="fa-solid fa-cart-shopping .shopping-icon"></i>
-        </span>
-        <p>Your Cart</p>
-      </div>
-      <div className="total-items">Total items: {itemsInCart}</div>
-      <div className="close-cart">
-        <button onClick={onCartClose}>
-          <i className="fa-solid fa-xmark close-icon"></i>
-        </button>
-      </div>
-    </div>
-  );
-}
-
-function CartContentHeading() {
-  return (
-    <div className="cart-content-heading">
-      <p>Product Name</p>
-      <p>Quantity</p>
-      <p>Amount</p>
-    </div>
-  );
-}
-
-function CartContent({
-  cartItems,
-  onIncreaseQuantity,
-  onDecreaseQuantity,
-  onRemoveCartItem,
-  setSelectedItem,
-}) {
-  return (
-    <div className="cart-content-container">
-      <div className="cart-content">
-        {cartItems.map(item => (
-          <Fragment key={item.item.id}>
-            <ItemDetails
-              item={item.item}
-              selectedDrinks={item.selectedDrinks}
-              key={item.item.id}
-              onRemoveCartItem={onRemoveCartItem}
-            />
-            <ItemQuantity
-              quantity={item.quantity}
-              onIncreaseQuantity={onIncreaseQuantity}
-              onDecreaseQuantity={onDecreaseQuantity}
-              setSelectedItem={setSelectedItem}
-              item={item}
-            />
-            <div className="total">
-              {(
-                parseFloat(item.item.price.replace(/,/g, '')) *
-                parseInt(item.quantity)
-              ).toLocaleString('en-us')}
-            </div>
-          </Fragment>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function ItemDetails({ item, selectedDrinks, onRemoveCartItem }) {
-  return (
-    <div className="item-details">
-      {item.image && <ItemImage src={item.imageCover} alt={item.title} />}
-      <div className="cart-item-description">
-        <p>{item.title}</p>
-        {selectedDrinks.length > 0 &&
-          selectedDrinks.map(drink => (
-            <p key={drink}>
-              <span>{drink}</span>
-            </p>
-          ))}
-        <span onClick={() => onRemoveCartItem(item.id)}>
-          <DeleteOutlined />
-        </span>
-        <span onClick={() => onRemoveCartItem(item.id)}>Remove</span>
-      </div>
-    </div>
-  );
-}
-
-function ItemImage({ src, alt }) {
-  return (
-    <div className="item-image-box">
-      <img src={src} alt={alt} />
-    </div>
-  );
-}
-
-function ItemQuantity({
-  quantity,
-  onIncreaseQuantity,
-  onDecreaseQuantity,
-  onRemoveCartItem,
-  item,
-  setSelectedItem,
-}) {
-  return (
-    <div className="item-quantity">
-      <div>
-        <button className="btn">
-          {' '}
-          {quantity === 1 ? (
-            <DeleteOutlined onClick={() => onDecreaseQuantity(item.item.id)} />
-          ) : (
-            <MinusOutlined
-              onClick={() => {
-                onDecreaseQuantity(item.item.id);
-              }}
-            />
-          )}
-        </button>
-        <span>{quantity}</span>
-        <button
-          className="btn"
-          onClick={() => {
-            onIncreaseQuantity(item.item.id);
-          }}
-        >
-          +
-        </button>
-      </div>
-    </div>
-  );
-}
-
-function CartTotals({ subTotal, deliveryFees }) {
-  return (
-    <div className="totals-container">
-      <div className="sub-total">
-        <p>Sub total</p>
-        <p>{subTotal.toLocaleString('en-us')}</p>
-      </div>
-      <div className="sub-total">
-        <p>Tip</p>
-        <p> 0</p>
-      </div>
-      <div className="sub-total">
-        <p>Delivery Fee</p>
-        <p> {deliveryFees}</p>
-      </div>
-      <div className="totals">
-        <p>Total</p>
-        <p>{(subTotal + deliveryFees).toLocaleString('en-us')}</p>
-      </div>
-    </div>
   );
 }
 
