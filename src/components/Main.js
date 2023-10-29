@@ -18,7 +18,7 @@ function Main({ items, onShowDrawer, onSelectedProduct }) {
   return (
     <div>
       <InfoBar />
-      <SubMenu />
+      <SubMenu uniqueCategories={uniqueCategories} />
       <DeliveringTo />
       <CategoryProducts
         items={items}

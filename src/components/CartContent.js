@@ -6,7 +6,6 @@ function CartContent({
   onIncreaseQuantity,
   onDecreaseQuantity,
   onRemoveCartItem,
-  setSelectedItem,
 }) {
   return (
     <div className="cart-content-container">
@@ -94,11 +93,13 @@ function ItemQuantity({
           {quantity === 1 ? (
             <DeleteOutlined onClick={() => onDecreaseQuantity(item.item.id)} />
           ) : (
-            <MinusOutlined
+            <span
               onClick={() => {
                 onDecreaseQuantity(item.item.id);
               }}
-            />
+            >
+              -
+            </span>
           )}
         </button>
         <span>{quantity}</span>

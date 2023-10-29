@@ -9,12 +9,14 @@ function CategoryProducts({
     <div className="category container">
       {uniqueCategories.map(category => (
         <Fragment key={category}>
-          <h2>{category}</h2>
-          <Products
-            items={items.filter(item => item.category === category)}
-            onShowDrawer={onShowDrawer}
-            onSelectedProduct={onSelectedProduct}
-          />
+          <div id={category}>
+            <h2>{category}</h2>
+            <Products
+              items={items.filter(item => item.category === category)}
+              onShowDrawer={onShowDrawer}
+              onSelectedProduct={onSelectedProduct}
+            />
+          </div>
         </Fragment>
       ))}
     </div>

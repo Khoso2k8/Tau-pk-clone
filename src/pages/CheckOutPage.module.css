@@ -1,0 +1,106 @@
+.container {
+  display: grid;
+  width: 90%;
+  margin: 5rem auto;
+  grid-template-columns: 3fr 1fr;
+
+  padding: 3rem 2rem;
+  column-gap: 3rem;
+}
+
+.contactInfo {
+  background-color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 2rem;
+  height: 70rem;
+}
+
+.contactInfo .heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.heading h3 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.heading h4 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #868e96;
+}
+
+.heading span {
+  color: #f79a3c;
+  font-size: 2rem;
+}
+
+.contactInfo .content {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 4rem;
+}
+
+.contactInfo select,
+.contactInfo input {
+  height: 8rem;
+  line-height: 8rem;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border-radius: 1rem;
+  border: 1px solid #868e96;
+}
+
+.contactInfo select:active {
+  border: 1px solid #f79a3c;
+}
+
+.contactInfo input {
+  width: 100%;
+}
+
+/* Cart details */
+
+.cartQuantity {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: #495057;
+  background-color: #fff;
+  padding: 3rem 2rem;
+  border-radius: 2rem;
+  margin-bottom: 5rem;
+}
+
+.cartQuantity span {
+  /* color: #f79a3c; */
+  font-weight: 700;
+}
+
+.cartQuantity .accordion {
+  font-size: 2.4rem;
+  align-items: center;
+}
+
+.orderBtn {
+  width: 100%;
+  background-color: #f79a3c;
+  color: #fff;
+  display: inline-block;
+  padding: 2rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-between;
+}

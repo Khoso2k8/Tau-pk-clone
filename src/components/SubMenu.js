@@ -1,4 +1,4 @@
-function SubMenu() {
+function SubMenu({ uniqueCategories }) {
   return (
     <div className="sub-menu">
       <nav className="sub-nav">
@@ -6,7 +6,12 @@ function SubMenu() {
           <li>
             <i className="fa-solid fa-bars"></i>
           </li>
-          <li>
+          {uniqueCategories.map(category => (
+            <li key={category}>
+              <a href={`#${category}`}>{category}</a>
+            </li>
+          ))}
+          {/* <li>
             <a href="/">Appetizing Deals</a>
           </li>
           <li>
@@ -20,7 +25,7 @@ function SubMenu() {
           </li>
           <li>
             <a href="/">Roll & Breads</a>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </div>

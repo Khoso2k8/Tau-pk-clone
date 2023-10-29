@@ -6,12 +6,12 @@ import initialItems from '../Data/items.json';
 import ProductDrawer from '../components/ProductDrawer';
 import CartDrawer from '../components/CartDrawer';
 
-function MenuPage() {
+function MenuPage({ cartItems, setCartItems, openCart, setOpenCart }) {
   const [items, setItems] = useState(initialItems);
   const [open, setOpen] = useState(false);
-  const [openCart, setOpenCart] = useState(false);
+
   const [selectedProduct, setSelectedProduct] = useState({});
-  const [cartItems, setCartItems] = useState([]);
+
   const [quantity, setQuantity] = useState(0);
   const [selectedDrinks, setSelectedDrinks] = useState({});
 

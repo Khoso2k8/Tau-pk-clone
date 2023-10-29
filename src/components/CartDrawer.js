@@ -3,6 +3,7 @@ import CartHeading from './CartHeading';
 import CartContentHeading from './CartContentHeading';
 import CartContent from './CartContent';
 import CartTotals from './CartTotals';
+import { Link } from 'react-router-dom';
 
 function CartDrawer({ openCart, onCartClose, cartItems, setCartItems }) {
   const itemsInCart = cartItems.reduce(
@@ -71,16 +72,18 @@ function CartDrawer({ openCart, onCartClose, cartItems, setCartItems }) {
           onRemoveCartItem={handleRemoveItem}
         />
         <CartTotals subTotal={subTotal} deliveryFees={deliveryFees} />
-        <CheckOutButton />
+        <CheckOutButton onCartClose={onCartClose} />
       </Drawer>
     </>
   );
 }
 
-function CheckOutButton() {
+function CheckOutButton({ onCartClose }) {
   return (
-    <div className="btn-check-out-box">
-      <button className="btn-check-out">Check Out</button>
+    <div className="btn-check-out-box" onClick={onCartClose}>
+      <Link to="/checkout" className="btn-check-out">
+        Check Out
+      </Link>
     </div>
   );
 }
